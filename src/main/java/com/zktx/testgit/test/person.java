@@ -1,10 +1,20 @@
 package com.zktx.testgit.test;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import javax.annotation.sql.DataSourceDefinition;
+
 /**
  * @Author： cxy
  * @Date： 2022/5/4
  */
-public class person {
-    String sex;
-    String age;
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class Person {
+    Integer id;
+
+    String name;
 }
