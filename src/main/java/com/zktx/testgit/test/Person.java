@@ -14,7 +14,7 @@ import javax.annotation.sql.DataSourceDefinition;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Person {
-    Integer id;
+    Integer age;
 
     String name;
 }
