@@ -5,7 +5,7 @@ package com.zktx.testgit.test;
  * @Date： 2022/5/13
  */
 public interface WfcjjlRoleService {
-    void insert();
+    Integer insert();
 
     String updatre();
 }
