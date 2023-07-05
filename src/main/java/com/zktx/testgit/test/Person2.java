@@ -16,7 +16,4 @@ public class Person2 {
 
     String name;
 
-    public static void main(String[] args) {
-        System.out.println("sss\t\nwww");
-    }
 }
