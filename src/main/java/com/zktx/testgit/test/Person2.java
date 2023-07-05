@@ -15,4 +15,8 @@ public class Person2 {
     Integer id;
 
     String name;
+
+    public static void main(String[] args) {
+        System.out.println("sss\t\nwww");
+    }
 }
